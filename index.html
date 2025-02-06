@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Mohammed ZAIFRI</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav id="navbar">
+            <div class="logo">Mohammed ZAIFRI</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li ><a href="#about">About</a></li>
+                <li style="display: none;"><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>bonjour, je suis <span class="highlight">Mohammed ZAIFRI</span></h1>
+            <p class="typewriter">Je suis un <span id="typing-text"></span></p>
+            <div class="cta-buttons">
+                <a href="img2.jpg" class="btn primary">Mon CV</a>
+                <a href="#contact" class="btn secondary">Contact</a>
+            </div>
+        </div>
+        <div class="hero-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>sur moi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Technicien spécialisé en gestion de transport et logistique en formation au Groupe IKI, je possède des compétences en logistique, programmation (C, Linux), gestion de stock, et soft skills (communication, travail d'équipe). Polyvalent et motivé, je maîtrise l'arabe, le français et l'anglais, et j'ai une expérience pratique dans divers domaines, allant de la logistique à l'enseignement. Toujours prêt à relever de nouveaux défis.
+                    </p>
+                
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>2+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>50+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>20+</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" style="display: none;">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://img.freepik.com/free-photo/close-up-businessman-with-digital-tablet_1098-549.jpg?t=st=1738691549~exp=1738695149~hmac=00f6ff32e44f7ffed58b6e38df3465a3c2be7dba80d79e65869c371c63b735a4&w=826" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Project One</h3>
+                    <p>A brief description of the project and the technologies used.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://img.freepik.com/free-photo/engineer-meeting-architectural-project-working-with-partner_1421-49.jpg?t=st=1738691633~exp=1738695233~hmac=5549e63217adcb7d4af2fa875ab7236d1598e2bc0de1de15696e112673c8a9c1&w=826" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Project Two</h3>
+                    <p>A brief description of the project and the technologies used.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-file"></i>
+                <h3>Back office</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-linux"></i>
+                <h3>Programmation (C, Linux)</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-van-shuttle"></i>
+                <h3>Exploitation du transport</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-regular fa-calendar-days"></i>
+                <h3>Planification des besoins en composants</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" style="">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form" style="display: none;">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>mohamedzalfri97@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+212 6 19 94 10 60</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mohammed ZAIFRI. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
